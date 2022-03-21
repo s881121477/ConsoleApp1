@@ -1,10 +1,12 @@
 ﻿using System;
+using System.Net.Http;
+using System.Threading.Tasks;
 
 namespace ConsoleApp1
 {
     class Program
     {
-        static void Main(string[] args)
+        static async Task Main(string[] args)
         {
             /*double meal_cost = 100;
             int tip_percent = 15;
@@ -94,14 +96,20 @@ namespace ConsoleApp1
                 {
                     Console.WriteLine("輸入錯誤");
                 }*/
-            int result = add(3,5)
 
-            }
-            static private int add( int a , int b)
+
+
+
+            /*Random rnd = new Random();
+            for (int i = 0; i < 10; i++)
             {
-            return a + b
-            }
-        }
-    }
+                Console.Write("{0,1}   ", rnd.Next(0, 101));
+            }*/
 
+
+
+        }
+
+    }
+    
 }
