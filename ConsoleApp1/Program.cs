@@ -71,7 +71,7 @@ namespace ConsoleApp1
                 }
             }*/
 
-            int[] no = {1,2,3};
+            /*int[] no = {1,2,3};
             string[] name = {"Jack","Mary","Tom" };
             int[] com = {80,65,100 };
             int[] pro = {75,67,93 };
@@ -93,9 +93,13 @@ namespace ConsoleApp1
                 else
                 {
                     Console.WriteLine("輸入錯誤");
-                }
+                }*/
+            int result = add(3,5)
 
-
+            }
+            static private int add( int a , int b)
+            {
+            return a + b
             }
         }
     }
