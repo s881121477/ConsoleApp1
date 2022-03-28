@@ -100,11 +100,11 @@ namespace ConsoleApp1
 
 
 
-            /*Random rnd = new Random();
+            Random rnd = new Random();
             for (int i = 0; i < 10; i++)
             {
                 Console.Write("{0,1}   ", rnd.Next(0, 101));
-            }*/
+            }
 
 
 
